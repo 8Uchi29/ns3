@@ -17,3 +17,24 @@ Readme
 
 5. シミュレーションの実行テスト
   $ ./waf --run hello-simulator 
+
+
+
+モジュールの追加方法
+----------------------------------
+1. ns-3ソースコードをダウンロードする
+  ./download.py 
+  cd ns-3-dev/src/
+  ./create-module.py  tcp-uchi #通常はこのコマンドだけで新規モジュールが追加される。
+  　　　　　　　　　　　　　　 # ns3のソースコードをgit管理にしないためにさらにひと手間加える。
+
+2. ソースコードをトップディレクトリにおく。
+  cp -r tcp-uchi ../../../
+        (トップディレクトリに移動させておく)
+
+3. ns-3-devの中を、シンボリックリンクに置き換える
+  cd ns-3-dev/src
+  rm -rf tcp-uchi
+  ln -s  ../../../tcp-uchi tcp-uchi
+
+
