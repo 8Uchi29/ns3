@@ -1,68 +1,125 @@
-/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+#include <iostream>
+#include <fstream>
+#include <string>
 
-// Include a header file from your module to test.
-#include "ns3/tcp-uchi.h"
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/tcp-header.h"
+#include "ns3/udp-header.h"
 
-// An essential include is test.h
-#include "ns3/test.h"
+#define NET_MASK "255.255.255.0"
+#define NET_ADDR "192.168.1.0"
 
-// Do not put your test classes in namespace ns3.  You may find it useful
-// to use the using directive to access the ns3 namespace directly
+#define FIRST_NO "0.0.0.1"
+
+#define SIM_START   0.10
+#define PORT        50000
+#define CW_INTERVAL 0.01
+
+#define PROG_DIR    "local/exp08/data/"
+
 using namespace ns3;
+NS_LOG_COMPONENT_DEFINE("exp08-LongFatPipe");
 
-// This is an example TestCase.
-class TcpUchiTestCase1 : public TestCase
+uint32_t bottleNeckLinkDL=2;
+
+void CwndTracer(Ptr<OutputStreamWrapper> stream,
+				uint32_t oldcwnd, uint32_t newcwnd)
 {
-public:
-  TcpUchiTestCase1 ();
-  virtual ~TcpUchiTestCase1 ();
-
-private:
-  virtual void DoRun (void);
-};
-
-// Add some help text to this case to describe what it is intended to test
-TcpUchiTestCase1::TcpUchiTestCase1 ()
-  : TestCase ("TcpUchi test case (does nothing)")
-{
+		*stream->GetStream() << bottleNeckLinkDL << " \t" << Simulator::Now().GetSeconds()
+							<< " \t" << newcwnd << std::endl;
 }
 
-// This destructor does nothing but we include it as a reminder that
-// the test case should clean up after itself
-TcpUchiTestCase1::~TcpUchiTestCase1 ()
+void MyEventHandller(Ptr<Application> app, Ptr<OutputStreamWrapper> st)
 {
+		Ptr<Socket> src_socket = app->GetObject<OnOffApplication>()->GetSocket();
+		src_socket->TraceConnectWithoutContext("CongestionWindow", MakeBoundCallback(&CwndTracer, st));
 }
 
-//
-// This method is the pure virtual method from class TestCase that every
-// TestCase must implement
-//
-void
-TcpUchiTestCase1::DoRun (void)
+void MyEventWrapper(Ptr<Application> app, Ptr<OutputStreamWrapper> st)
 {
-  // A wide variety of test macros are available in src/core/test.h
-  NS_TEST_ASSERT_MSG_EQ (true, true, "true doesn't equal true for some reason");
-  // Use this one for floating point comparisons
-  NS_TEST_ASSERT_MSG_EQ_TOL (0.01, 0.01, 0.001, "Numbers are not equal within tolerance");
+		Simulator::Schedule(Seconds(CW_INTERVAL), &MyEventHandler, app, st);
 }
 
-// The TestSuite class names the TestSuite, identifies what type of TestSuite,
-// and enables the TestCases to be run.  Typically, only the constructor for
-// this class must be defined
-//
-class TcpUchiTestSuite : public TestSuite
+int main(int argc, char *argv[])
 {
-public:
-  TcpUchiTestSuite ();
-};
+		uint32_t pktSize = 512;
+		std::string appDataRate = "100Mbps";
+		std::string bottleNeckLinkBW="100Mbps";
+		uint32_t duration  = 100;
+		char linkDelay[10];
 
-TcpUchiTestSuite::TcpUchiTestSuite ()
-  : TestSuite ("tcp-uchi", UNIT)
-{
-  // TestDuration for TestCase can be QUICK, EXTENSIVE or TAKES_FOREVER
-  AddTestCase (new TcpUchiTestCase1, TestCase::QUICK);
+		CommandLine cmd;
+		cmd.AddValue("bw","bandwidth of bottleneck link in Mbps",bottleNeckLinkBW);
+		cmd.AddValue("dl", "delay of bottleneck link in ms", bottleNeckLinkDL);
+		cmd.AddValue("duration", "simulation duration in seconds", duration);
+		cmd.Parse(argc, argv);
+
+		sprintf(linkDelay, "%dms", (int)bottleNeckLinkDL);
+
+		Config::SetDefault("ns3::OnOffApplication::PacketSize", UintegerValue(pktSize));
+		Config::SetDefault("ns3::OnOffApplication::DataRate",   StringValue(appDataRate));
+		Config::SetDefault("ns3::TcpL4Protocol::SocketType",    StringValue("ns3::TcpNewReno"));
+
+		NS_LOG_UNCOND("--------------------------------------");
+		NS_LOG_UNCOND("Simulation Enviroment:");
+		NS_LOG_UNCOND(" - bottleneck link ("
+						<< bottleNeckLinkBW<<","
+						<<linkDelay<<")");
+		NS_LOG_UNCOND(" - OnOffApplication ("
+						<< pktSize << "byte,"
+						<< appDataRate<<")");
+		NS_LOG_UNCOND(" - Socket Option (TcpNewReno,"
+						<< pktSize*2-42 << "bytes" << ")");
+		NS_LOG_UNCOND(" - simulation time "
+						<< SIM_START+duration << "s");
+		NS_LOG_UNCOND("--------------------------------------");
+
+		NodeContainer net;
+		net.Create(2);
+
+		PointToPointHelper p2p;
+		p2p.SetDeviceAttribute("DataRate", StringValue(bottleNeckLinkBW));
+		p2p.SetChannelAttribute("Delay", StringValue(linkDelay));
+		p2p.SetQueue("ns3::DropTailQueue","MaxPackets", UintegerValue(bottleNeckLinkQS));
+
+		NetDeviceContainer dev;
+		dev = p2p.Install(net);
+
+		InternetStackHelper stack;
+		stack.InstallAll();
+
+		Ipv4AddressHelper address;
+		address.SetBase(NET_ADDR, NET_MASK, FIRST_NO);
+		Ipv4InterfaceContainer ifs = address.Assign(dev);
+		Ipv4GlobalRoutingHelper::PopulateRoutingTables();
+
+		AddressValue remoteAddress(InetSocketAddress(ifs.GetAddress(1, 0), PORT));
+		OnOffHelper ftp("ns3::TcpSocketFactory", Address());
+		ftp.SetAttribute("OnTime", StringValue("ns3::ConstantRandomValue[Constant=1]"));
+		ftp.SetAttribute("OffTime", StringValue("ns3::ConstantRandomValue[Constant=0]"));
+		ftp.SetAttribute("Remote", StringValue("remoteAddress"));
+
+		ApplicatinContainer src = ftp.Install(net.Get(0));
+		src.Start(Seconds(SIM_START));
+		src.Stop(Seconds(SIM_START+duration));
+
+		Address sinkAddress(InetSocketAddress (IPv4Address::GetAny(), PORT));
+		PacketSinkHelper sinkHelper("ns3::TcpSocketFactory", sinkAddress);
+		ApplicationContainer sink = sinkHelper.Install(net.Get(1));
+		sink.Start(Seconds(SIM_START));
+		sink.Stop(Seconds(SIM_START+duration));
+
+		std::string fd = std::string(PROG_DIR) + "cwnd-" + bottleNeckLinkBW + "-" + linkDelay;
+		AsciiTraceHelper ascii;
+		Ptr<OutputStreamWrapper> st = ascii.CreateFileStream(fd);
+		Simulator::Schedule(Seconds(0.1), &MyEventWrapper, net.Get(0)->GetApplication(0), st);
+
+		Simulator::Stop(Seconds(SIM_START + duration));
+		Simulator::Run();
+		Simulator::Destroy();
+		return 0;
 }
-
-// Do not forget to allocate an instance of this TestSuite
-static TcpUchiTestSuite tcpUchiTestSuite;
-
