@@ -1,0 +1,1869 @@
+Waf: Entering directory `/home/fei/ns-allinone-3.18/ns-3.18/build'
+[  2/628] cxx: exp01-simpleTCP.cc -> ../../build/local/exp01/exp01-simpleTCP.cc.1.o
+[628/628] cxxprogram: ../../build/local/exp01/exp01-simpleTCP.cc.1.o -> ../../build/local/exp01/ns3.18-exp01-simpleTCP-debug
+Waf: Leaving directory `/home/fei/ns-allinone-3.18/ns-3.18/build'
+'build' finished successfully (1.687s)
+0.235955 [node 0] In SlowStart, updated to cwnd 1072 ssthresh 65535
+0.262927 [node 0] In SlowStart, updated to cwnd 1608 ssthresh 65535
+0.289899 [node 0] In SlowStart, updated to cwnd 2144 ssthresh 65535
+0.311091 [node 0] In SlowStart, updated to cwnd 2680 ssthresh 65535
+0.322651 [node 0] In SlowStart, updated to cwnd 3216 ssthresh 65535
+0.338063 [node 0] In SlowStart, updated to cwnd 3752 ssthresh 65535
+0.349623 [node 0] In SlowStart, updated to cwnd 4288 ssthresh 65535
+0.361183 [node 0] In SlowStart, updated to cwnd 4824 ssthresh 65535
+0.372743 [node 0] In SlowStart, updated to cwnd 5360 ssthresh 65535
+0.384303 [node 0] In SlowStart, updated to cwnd 5896 ssthresh 65535
+0.395863 [node 0] In SlowStart, updated to cwnd 6432 ssthresh 65535
+0.407423 [node 0] In SlowStart, updated to cwnd 6968 ssthresh 65535
+0.424763 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 5092, ssthresh to 3484 at fast recovery seqnum 19273
+0.430543 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+0.436323 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+0.442103 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+0.447883 [node 0] Dupack in fast recovery mode. Increase cwnd to 7236
+0.453663 [node 0] Dupack in fast recovery mode. Increase cwnd to 7772
+0.459443 [node 0] Partial ACK in fast recovery: cwnd set to 6700
+0.474855 [node 0] Dupack in fast recovery mode. Increase cwnd to 7236
+0.480635 [node 0] Dupack in fast recovery mode. Increase cwnd to 7772
+0.486415 [node 0] Partial ACK in fast recovery: cwnd set to 6700
+0.496047 [node 0] Dupack in fast recovery mode. Increase cwnd to 7236
+0.501827 [node 0] Dupack in fast recovery mode. Increase cwnd to 7772
+0.507607 [node 0] Dupack in fast recovery mode. Increase cwnd to 8308
+0.513387 [node 0] Partial ACK in fast recovery: cwnd set to 7236
+0.519167 [node 0] Dupack in fast recovery mode. Increase cwnd to 7772
+0.524947 [node 0] Dupack in fast recovery mode. Increase cwnd to 8308
+0.530727 [node 0] Dupack in fast recovery mode. Increase cwnd to 8844
+0.536507 [node 0] Dupack in fast recovery mode. Increase cwnd to 9380
+0.542287 [node 0] Partial ACK in fast recovery: cwnd set to 8308
+0.548067 [node 0] Dupack in fast recovery mode. Increase cwnd to 8844
+0.553847 [node 0] Dupack in fast recovery mode. Increase cwnd to 9380
+0.559627 [node 0] Dupack in fast recovery mode. Increase cwnd to 9916
+0.565407 [node 0] Dupack in fast recovery mode. Increase cwnd to 10452
+0.571187 [node 0] Dupack in fast recovery mode. Increase cwnd to 10988
+0.576967 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 3484
+0.576967 [node 0] In CongAvoid, updated to cwnd 3566 ssthresh 3484
+0.588527 [node 0] In CongAvoid, updated to cwnd 3646 ssthresh 3484
+0.600087 [node 0] In CongAvoid, updated to cwnd 3724 ssthresh 3484
+0.611647 [node 0] In CongAvoid, updated to cwnd 3801 ssthresh 3484
+0.623207 [node 0] In CongAvoid, updated to cwnd 3876 ssthresh 3484
+0.634767 [node 0] In CongAvoid, updated to cwnd 3950 ssthresh 3484
+0.646327 [node 0] In CongAvoid, updated to cwnd 4022 ssthresh 3484
+0.657887 [node 0] In CongAvoid, updated to cwnd 4093 ssthresh 3484
+0.669447 [node 0] In CongAvoid, updated to cwnd 4163 ssthresh 3484
+0.681007 [node 0] In CongAvoid, updated to cwnd 4232 ssthresh 3484
+0.692567 [node 0] In CongAvoid, updated to cwnd 4299 ssthresh 3484
+0.704127 [node 0] In CongAvoid, updated to cwnd 4365 ssthresh 3484
+0.715687 [node 0] In CongAvoid, updated to cwnd 4430 ssthresh 3484
+0.727247 [node 0] In CongAvoid, updated to cwnd 4494 ssthresh 3484
+0.738807 [node 0] In CongAvoid, updated to cwnd 4557 ssthresh 3484
+0.750367 [node 0] In CongAvoid, updated to cwnd 4620 ssthresh 3484
+0.761927 [node 0] In CongAvoid, updated to cwnd 4682 ssthresh 3484
+0.773487 [node 0] In CongAvoid, updated to cwnd 4743 ssthresh 3484
+0.785047 [node 0] In CongAvoid, updated to cwnd 4803 ssthresh 3484
+0.796607 [node 0] In CongAvoid, updated to cwnd 4862 ssthresh 3484
+0.808167 [node 0] In CongAvoid, updated to cwnd 4921 ssthresh 3484
+0.819727 [node 0] In CongAvoid, updated to cwnd 4979 ssthresh 3484
+0.831287 [node 0] In CongAvoid, updated to cwnd 5036 ssthresh 3484
+0.842847 [node 0] In CongAvoid, updated to cwnd 5093 ssthresh 3484
+0.860187 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 56257
+0.865967 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+0.871747 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+0.877527 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+0.883307 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+0.889087 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+0.894867 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+0.894867 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+0.906427 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+0.917987 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+0.933399 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+0.944959 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+0.956519 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+0.968079 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+0.979639 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+0.991199 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+1.00276 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+1.01432 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+1.02588 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+1.03744 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+1.049 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+1.06056 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+1.07212 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+1.08368 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+1.09524 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+1.1068 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+1.11836 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+1.12992 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+1.14148 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+1.15304 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+1.1646 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+1.17616 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+1.18772 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+1.19928 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+1.21084 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+1.2224 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+1.23396 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+1.24552 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+1.25708 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+1.26864 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+1.2802 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+1.29176 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+1.3091 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 97529
+1.31488 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+1.32066 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+1.32644 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+1.33222 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+1.338 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+1.34378 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+1.34378 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+1.35534 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+1.3669 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+1.38231 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+1.39387 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+1.40543 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+1.41699 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+1.42855 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+1.44011 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+1.45167 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+1.46323 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+1.47479 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+1.48635 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+1.49791 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+1.50947 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+1.52103 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+1.53259 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+1.54415 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+1.55571 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+1.56727 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+1.57883 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+1.59039 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+1.60195 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+1.61351 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+1.62507 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+1.63663 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+1.64819 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+1.65975 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+1.67131 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+1.68287 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+1.69443 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+1.70599 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+1.71755 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+1.72911 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+1.74067 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+1.75801 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 138801
+1.76379 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+1.76957 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+1.77535 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+1.78113 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+1.78691 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+1.79269 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+1.79269 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+1.80425 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+1.81581 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+1.83122 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+1.84278 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+1.85434 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+1.8659 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+1.87746 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+1.88902 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+1.90058 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+1.91214 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+1.9237 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+1.93526 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+1.94682 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+1.95838 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+1.96994 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+1.9815 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+1.99306 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+2.00462 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+2.01618 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+2.02774 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+2.0393 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+2.05086 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+2.06242 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+2.07398 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+2.08554 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+2.0971 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+2.10866 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+2.12022 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+2.13178 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+2.14334 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+2.1549 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+2.16646 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+2.17802 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+2.18958 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+2.20692 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 180073
+2.2127 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+2.21848 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+2.22426 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+2.23004 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+2.23582 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+2.2416 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+2.2416 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+2.25316 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+2.26472 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+2.28014 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+2.2917 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+2.30326 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+2.31482 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+2.32638 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+2.33794 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+2.3495 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+2.36106 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+2.37262 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+2.38418 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+2.39574 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+2.4073 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+2.41886 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+2.43042 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+2.44198 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+2.45354 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+2.4651 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+2.47666 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+2.48822 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+2.49978 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+2.51134 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+2.5229 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+2.53446 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+2.54602 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+2.55758 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+2.56914 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+2.5807 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+2.59226 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+2.60382 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+2.61538 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+2.62694 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+2.6385 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+2.65584 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 221345
+2.66162 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+2.6674 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+2.67318 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+2.67896 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+2.68474 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+2.69052 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+2.69052 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+2.70208 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+2.71364 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+2.72905 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+2.74061 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+2.75217 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+2.76373 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+2.77529 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+2.78685 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+2.79841 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+2.80997 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+2.82153 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+2.83309 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+2.84465 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+2.85621 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+2.86777 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+2.87933 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+2.89089 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+2.90245 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+2.91401 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+2.92557 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+2.93713 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+2.94869 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+2.96025 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+2.97181 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+2.98337 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+2.99493 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+3.00649 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+3.01805 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+3.02961 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+3.04117 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+3.05273 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+3.06429 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+3.07585 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+3.08741 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+3.10475 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 262617
+3.11053 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+3.11631 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+3.12209 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+3.12787 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+3.13365 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+3.13943 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+3.13943 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+3.15099 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+3.16255 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+3.17796 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+3.18952 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+3.20108 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+3.21264 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+3.2242 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+3.23576 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+3.24732 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+3.25888 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+3.27044 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+3.282 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+3.29356 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+3.30512 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+3.31668 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+3.32824 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+3.3398 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+3.35136 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+3.36292 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+3.37448 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+3.38604 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+3.3976 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+3.40916 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+3.42072 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+3.43228 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+3.44384 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+3.4554 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+3.46696 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+3.47852 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+3.49008 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+3.50164 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+3.5132 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+3.52476 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+3.53632 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+3.55366 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 303889
+3.55944 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+3.56522 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+3.571 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+3.57678 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+3.58256 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+3.58834 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+3.58834 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+3.5999 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+3.61146 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+3.62687 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+3.63843 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+3.64999 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+3.66155 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+3.67311 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+3.68467 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+3.69623 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+3.70779 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+3.71935 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+3.73091 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+3.74247 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+3.75403 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+3.76559 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+3.77715 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+3.78871 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+3.80027 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+3.81183 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+3.82339 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+3.83495 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+3.84651 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+3.85807 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+3.86963 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+3.88119 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+3.89275 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+3.90431 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+3.91587 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+3.92743 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+3.93899 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+3.95055 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+3.96211 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+3.97367 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+3.98523 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+4.00257 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 345161
+4.00835 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+4.01413 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+4.01991 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+4.02569 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+4.03147 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+4.03725 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+4.03725 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+4.04881 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+4.06037 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+4.07578 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+4.08734 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+4.0989 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+4.11046 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+4.12202 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+4.13358 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+4.14514 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+4.1567 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+4.16826 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+4.17982 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+4.19138 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+4.20294 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+4.2145 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+4.22606 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+4.23762 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+4.24918 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+4.26074 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+4.2723 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+4.28386 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+4.29542 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+4.30698 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+4.31854 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+4.3301 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+4.34166 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+4.35322 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+4.36478 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+4.37634 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+4.3879 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+4.39946 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+4.41102 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+4.42258 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+4.43414 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+4.45148 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 386433
+4.45726 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+4.46304 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+4.46882 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+4.4746 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+4.48038 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+4.48616 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+4.48616 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+4.49772 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+4.50928 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+4.5247 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+4.53626 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+4.54782 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+4.55938 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+4.57094 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+4.5825 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+4.59406 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+4.60562 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+4.61718 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+4.62874 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+4.6403 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+4.65186 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+4.66342 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+4.67498 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+4.68654 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+4.6981 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+4.70966 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+4.72122 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+4.73278 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+4.74434 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+4.7559 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+4.76746 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+4.77902 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+4.79058 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+4.80214 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+4.8137 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+4.82526 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+4.83682 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+4.84838 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+4.85994 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+4.8715 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+4.88306 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+4.9004 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 427705
+4.90618 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+4.91196 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+4.91774 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+4.92352 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+4.9293 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+4.93508 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+4.93508 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+4.94664 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+4.9582 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+4.97361 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+4.98517 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+4.99673 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+5.00829 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+5.01985 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+5.03141 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+5.04297 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+5.05453 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+5.06609 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+5.07765 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+5.08921 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+5.10077 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+5.11233 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+5.12389 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+5.13545 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+5.14701 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+5.15857 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+5.17013 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+5.18169 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+5.19325 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+5.20481 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+5.21637 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+5.22793 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+5.23949 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+5.25105 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+5.26261 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+5.27417 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+5.28573 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+5.29729 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+5.30885 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+5.32041 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+5.33197 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+5.34931 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 468977
+5.35509 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+5.36087 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+5.36665 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+5.37243 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+5.37821 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+5.38399 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+5.38399 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+5.39555 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+5.40711 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+5.42252 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+5.43408 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+5.44564 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+5.4572 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+5.46876 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+5.48032 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+5.49188 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+5.50344 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+5.515 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+5.52656 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+5.53812 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+5.54968 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+5.56124 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+5.5728 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+5.58436 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+5.59592 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+5.60748 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+5.61904 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+5.6306 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+5.64216 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+5.65372 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+5.66528 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+5.67684 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+5.6884 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+5.69996 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+5.71152 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+5.72308 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+5.73464 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+5.7462 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+5.75776 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+5.76932 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+5.78088 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+5.79822 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 510249
+5.804 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+5.80978 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+5.81556 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+5.82134 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+5.82712 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+5.8329 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+5.8329 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+5.84446 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+5.85602 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+5.87143 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+5.88299 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+5.89455 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+5.90611 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+5.91767 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+5.92923 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+5.94079 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+5.95235 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+5.96391 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+5.97547 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+5.98703 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+5.99859 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+6.01015 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+6.02171 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+6.03327 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+6.04483 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+6.05639 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+6.06795 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+6.07951 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+6.09107 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+6.10263 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+6.11419 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+6.12575 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+6.13731 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+6.14887 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+6.16043 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+6.17199 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+6.18355 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+6.19511 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+6.20667 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+6.21823 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+6.22979 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+6.24713 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 551521
+6.25291 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+6.25869 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+6.26447 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+6.27025 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+6.27603 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+6.28181 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+6.28181 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+6.29337 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+6.30493 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+6.32034 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+6.3319 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+6.34346 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+6.35502 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+6.36658 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+6.37814 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+6.3897 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+6.40126 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+6.41282 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+6.42438 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+6.43594 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+6.4475 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+6.45906 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+6.47062 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+6.48218 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+6.49374 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+6.5053 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+6.51686 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+6.52842 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+6.53998 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+6.55154 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+6.5631 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+6.57466 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+6.58622 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+6.59778 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+6.60934 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+6.6209 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+6.63246 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+6.64402 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+6.65558 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+6.66714 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+6.6787 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+6.69604 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 592793
+6.70182 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+6.7076 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+6.71338 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+6.71916 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+6.72494 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+6.73072 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+6.73072 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+6.74228 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+6.75384 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+6.76926 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+6.78082 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+6.79238 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+6.80394 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+6.8155 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+6.82706 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+6.83862 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+6.85018 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+6.86174 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+6.8733 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+6.88486 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+6.89642 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+6.90798 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+6.91954 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+6.9311 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+6.94266 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+6.95422 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+6.96578 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+6.97734 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+6.9889 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+7.00046 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+7.01202 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+7.02358 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+7.03514 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+7.0467 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+7.05826 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+7.06982 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+7.08138 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+7.09294 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+7.1045 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+7.11606 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+7.12762 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+7.14496 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 634065
+7.15074 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+7.15652 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+7.1623 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+7.16808 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+7.17386 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+7.17964 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+7.17964 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+7.1912 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+7.20276 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+7.21817 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+7.22973 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+7.24129 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+7.25285 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+7.26441 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+7.27597 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+7.28753 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+7.29909 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+7.31065 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+7.32221 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+7.33377 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+7.34533 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+7.35689 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+7.36845 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+7.38001 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+7.39157 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+7.40313 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+7.41469 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+7.42625 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+7.43781 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+7.44937 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+7.46093 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+7.47249 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+7.48405 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+7.49561 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+7.50717 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+7.51873 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+7.53029 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+7.54185 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+7.55341 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+7.56497 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+7.57653 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+7.59387 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 675337
+7.59965 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+7.60543 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+7.61121 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+7.61699 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+7.62277 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+7.62855 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+7.62855 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+7.64011 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+7.65167 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+7.66708 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+7.67864 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+7.6902 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+7.70176 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+7.71332 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+7.72488 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+7.73644 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+7.748 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+7.75956 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+7.77112 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+7.78268 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+7.79424 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+7.8058 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+7.81736 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+7.82892 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+7.84048 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+7.85204 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+7.8636 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+7.87516 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+7.88672 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+7.89828 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+7.90984 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+7.9214 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+7.93296 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+7.94452 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+7.95608 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+7.96764 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+7.9792 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+7.99076 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+8.00232 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+8.01388 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+8.02544 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+8.04278 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 716609
+8.04856 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+8.05434 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+8.06012 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+8.0659 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+8.07168 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+8.07746 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+8.07746 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+8.08902 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+8.10058 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+8.11599 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+8.12755 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+8.13911 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+8.15067 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+8.16223 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+8.17379 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+8.18535 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+8.19691 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+8.20847 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+8.22003 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+8.23159 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+8.24315 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+8.25471 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+8.26627 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+8.27783 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+8.28939 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+8.30095 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+8.31251 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+8.32407 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+8.33563 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+8.34719 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+8.35875 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+8.37031 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+8.38187 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+8.39343 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+8.40499 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+8.41655 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+8.42811 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+8.43967 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+8.45123 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+8.46279 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+8.47435 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+8.49169 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 757881
+8.49747 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+8.50325 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+8.50903 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+8.51481 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+8.52059 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+8.52637 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+8.52637 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+8.53793 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+8.54949 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+8.5649 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+8.57646 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+8.58802 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+8.59958 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+8.61114 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+8.6227 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+8.63426 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+8.64582 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+8.65738 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+8.66894 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+8.6805 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+8.69206 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+8.70362 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+8.71518 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+8.72674 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+8.7383 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+8.74986 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+8.76142 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+8.77298 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+8.78454 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+8.7961 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+8.80766 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+8.81922 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+8.83078 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+8.84234 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+8.8539 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+8.86546 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+8.87702 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+8.88858 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+8.90014 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+8.9117 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+8.92326 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+8.9406 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 799153
+8.94638 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+8.95216 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+8.95794 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+8.96372 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+8.9695 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+8.97528 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+8.97528 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+8.98684 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+8.9984 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+9.01382 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+9.02538 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+9.03694 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+9.0485 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+9.06006 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+9.07162 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+9.08318 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+9.09474 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+9.1063 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+9.11786 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+9.12942 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+9.14098 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+9.15254 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+9.1641 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+9.17566 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+9.18722 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+9.19878 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+9.21034 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+9.2219 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+9.23346 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+9.24502 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+9.25658 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+9.26814 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+9.2797 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+9.29126 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+9.30282 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+9.31438 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+9.32594 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+9.3375 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+9.34906 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+9.36062 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+9.37218 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+9.38952 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 840425
+9.3953 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+9.40108 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+9.40686 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+9.41264 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+9.41842 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+9.4242 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+9.4242 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+9.43576 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+9.44732 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+9.46273 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+9.47429 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+9.48585 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+9.49741 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+9.50897 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+9.52053 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+9.53209 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+9.54365 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+9.55521 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+9.56677 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+9.57833 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+9.58989 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+9.60145 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+9.61301 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+9.62457 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+9.63613 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+9.64769 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+9.65925 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+9.67081 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+9.68237 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+9.69393 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+9.70549 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+9.71705 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+9.72861 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+9.74017 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+9.75173 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+9.76329 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+9.77485 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+9.78641 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+9.79797 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+9.80953 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+9.82109 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+9.83843 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 881697
+9.84421 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+9.84999 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+9.85577 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+9.86155 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+9.86733 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+9.87311 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+9.87311 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+9.88467 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+9.89623 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+9.91164 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+9.9232 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+9.93476 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+9.94632 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+9.95788 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+9.96944 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+9.981 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+9.99256 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+10.0041 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+10.0157 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+10.0272 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+10.0388 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+10.0504 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+10.0619 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+10.0735 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+10.085 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+10.0966 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+10.1082 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+10.1197 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+10.1313 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+10.1428 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+10.1544 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+10.166 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+10.1775 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+10.1891 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+10.2006 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+10.2122 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+10.2238 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+10.2353 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+10.2469 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+10.2584 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+10.27 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+10.2873 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 922969
+10.2931 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+10.2989 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+10.3047 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+10.3105 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+10.3162 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+10.322 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+10.322 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+10.3336 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+10.3451 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+10.3606 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+10.3721 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+10.3837 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+10.3952 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+10.4068 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+10.4184 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+10.4299 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+10.4415 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+10.453 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+10.4646 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+10.4762 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+10.4877 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+10.4993 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+10.5108 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+10.5224 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+10.534 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+10.5455 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+10.5571 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+10.5686 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+10.5802 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+10.5918 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+10.6033 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+10.6149 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+10.6264 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+10.638 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+10.6496 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+10.6611 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+10.6727 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+10.6842 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+10.6958 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+10.7074 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+10.7189 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+10.7363 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 964241
+10.742 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+10.7478 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+10.7536 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+10.7594 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+10.7652 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+10.7709 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+10.7709 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+10.7825 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+10.7941 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+10.8095 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+10.821 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+10.8326 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+10.8441 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+10.8557 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+10.8673 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+10.8788 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+10.8904 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+10.9019 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+10.9135 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+10.9251 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+10.9366 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+10.9482 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+10.9597 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+10.9713 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+10.9829 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+10.9944 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+11.006 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+11.0175 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+11.0291 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+11.0407 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+11.0522 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+11.0638 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+11.0753 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+11.0869 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+11.0985 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+11.11 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+11.1216 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+11.1331 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+11.1447 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+11.1563 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+11.1678 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+11.1852 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1005513
+11.1909 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+11.1967 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+11.2025 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+11.2083 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+11.2141 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+11.2198 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+11.2198 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+11.2314 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+11.243 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+11.2584 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+11.2699 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+11.2815 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+11.2931 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+11.3046 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+11.3162 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+11.3277 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+11.3393 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+11.3509 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+11.3624 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+11.374 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+11.3855 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+11.3971 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+11.4087 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+11.4202 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+11.4318 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+11.4433 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+11.4549 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+11.4665 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+11.478 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+11.4896 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+11.5011 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+11.5127 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+11.5243 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+11.5358 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+11.5474 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+11.5589 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+11.5705 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+11.5821 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+11.5936 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+11.6052 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+11.6167 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+11.6341 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1046785
+11.6399 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+11.6456 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+11.6514 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+11.6572 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+11.663 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+11.6688 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+11.6688 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+11.6803 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+11.6919 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+11.7073 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+11.7188 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+11.7304 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+11.742 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+11.7535 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+11.7651 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+11.7766 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+11.7882 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+11.7998 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+11.8113 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+11.8229 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+11.8344 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+11.846 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+11.8576 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+11.8691 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+11.8807 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+11.8922 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+11.9038 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+11.9154 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+11.9269 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+11.9385 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+11.95 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+11.9616 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+11.9732 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+11.9847 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+11.9963 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+12.0078 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+12.0194 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+12.031 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+12.0425 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+12.0541 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+12.0656 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+12.083 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1088057
+12.0888 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+12.0945 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+12.1003 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+12.1061 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+12.1119 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+12.1177 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+12.1177 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+12.1292 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+12.1408 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+12.1562 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+12.1678 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+12.1793 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+12.1909 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+12.2024 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+12.214 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+12.2256 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+12.2371 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+12.2487 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+12.2602 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+12.2718 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+12.2834 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+12.2949 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+12.3065 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+12.318 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+12.3296 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+12.3412 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+12.3527 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+12.3643 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+12.3758 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+12.3874 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+12.399 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+12.4105 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+12.4221 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+12.4336 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+12.4452 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+12.4568 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+12.4683 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+12.4799 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+12.4914 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+12.503 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+12.5146 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+12.5319 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1129329
+12.5377 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+12.5435 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+12.5492 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+12.555 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+12.5608 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+12.5666 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+12.5666 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+12.5781 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+12.5897 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+12.6051 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+12.6167 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+12.6282 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+12.6398 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+12.6514 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+12.6629 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+12.6745 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+12.686 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+12.6976 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+12.7092 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+12.7207 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+12.7323 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+12.7438 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+12.7554 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+12.767 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+12.7785 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+12.7901 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+12.8016 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+12.8132 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+12.8248 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+12.8363 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+12.8479 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+12.8594 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+12.871 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+12.8826 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+12.8941 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+12.9057 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+12.9172 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+12.9288 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+12.9404 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+12.9519 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+12.9635 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+12.9808 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1170601
+12.9866 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+12.9924 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+12.9982 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+13.0039 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+13.0097 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+13.0155 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+13.0155 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+13.0271 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+13.0386 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+13.054 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+13.0656 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+13.0771 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+13.0887 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+13.1003 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+13.1118 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+13.1234 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+13.1349 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+13.1465 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+13.1581 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+13.1696 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+13.1812 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+13.1927 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+13.2043 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+13.2159 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+13.2274 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+13.239 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+13.2505 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+13.2621 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+13.2737 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+13.2852 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+13.2968 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+13.3083 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+13.3199 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+13.3315 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+13.343 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+13.3546 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+13.3661 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+13.3777 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+13.3893 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+13.4008 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+13.4124 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+13.4297 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1211873
+13.4355 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+13.4413 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+13.4471 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+13.4528 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+13.4586 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+13.4644 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+13.4644 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+13.476 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+13.4875 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+13.5029 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+13.5145 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+13.5261 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+13.5376 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+13.5492 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+13.5607 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+13.5723 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+13.5839 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+13.5954 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+13.607 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+13.6185 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+13.6301 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+13.6417 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+13.6532 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+13.6648 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+13.6763 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+13.6879 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+13.6995 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+13.711 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+13.7226 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+13.7341 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+13.7457 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+13.7573 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+13.7688 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+13.7804 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+13.7919 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+13.8035 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+13.8151 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+13.8266 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+13.8382 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+13.8497 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+13.8613 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+13.8786 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1253145
+13.8844 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+13.8902 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+13.896 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+13.9018 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+13.9075 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+13.9133 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+13.9133 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+13.9249 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+13.9364 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+13.9518 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+13.9634 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+13.975 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+13.9865 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+13.9981 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+14.0096 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+14.0212 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+14.0328 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+14.0443 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+14.0559 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+14.0674 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+14.079 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+14.0906 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+14.1021 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+14.1137 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+14.1252 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+14.1368 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+14.1484 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+14.1599 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+14.1715 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+14.183 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+14.1946 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+14.2062 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+14.2177 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+14.2293 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+14.2408 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+14.2524 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+14.264 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+14.2755 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+14.2871 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+14.2986 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+14.3102 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+14.3275 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1294417
+14.3333 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+14.3391 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+14.3449 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+14.3507 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+14.3564 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+14.3622 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+14.3622 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+14.3738 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+14.3853 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+14.4008 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+14.4123 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+14.4239 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+14.4354 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+14.447 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+14.4586 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+14.4701 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+14.4817 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+14.4932 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+14.5048 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+14.5164 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+14.5279 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+14.5395 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+14.551 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+14.5626 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+14.5742 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+14.5857 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+14.5973 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+14.6088 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+14.6204 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+14.632 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+14.6435 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+14.6551 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+14.6666 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+14.6782 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+14.6898 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+14.7013 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+14.7129 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+14.7244 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+14.736 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+14.7476 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+14.7591 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+14.7765 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1335689
+14.7822 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+14.788 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+14.7938 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+14.7996 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+14.8054 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+14.8111 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+14.8111 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+14.8227 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+14.8343 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+14.8497 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+14.8612 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+14.8728 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+14.8844 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+14.8959 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+14.9075 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+14.919 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+14.9306 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+14.9422 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+14.9537 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+14.9653 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+14.9768 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+14.9884 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+15 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+15.0115 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+15.0231 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+15.0346 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+15.0462 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+15.0578 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+15.0693 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+15.0809 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+15.0924 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+15.104 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+15.1156 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+15.1271 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+15.1387 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+15.1502 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+15.1618 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+15.1734 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+15.1849 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+15.1965 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+15.208 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+15.2254 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1376961
+15.2312 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+15.2369 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+15.2427 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+15.2485 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+15.2543 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+15.2601 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+15.2601 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+15.2716 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+15.2832 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+15.2986 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+15.3101 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+15.3217 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+15.3333 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+15.3448 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+15.3564 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+15.3679 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+15.3795 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+15.3911 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+15.4026 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+15.4142 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+15.4257 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+15.4373 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+15.4489 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+15.4604 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+15.472 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+15.4835 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+15.4951 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+15.5067 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+15.5182 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+15.5298 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+15.5413 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+15.5529 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+15.5645 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+15.576 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+15.5876 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+15.5991 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+15.6107 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+15.6223 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+15.6338 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+15.6454 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+15.6569 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+15.6743 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1418233
+15.6801 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+15.6858 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+15.6916 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+15.6974 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+15.7032 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+15.709 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+15.709 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+15.7205 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+15.7321 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+15.7475 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+15.7591 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+15.7706 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+15.7822 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+15.7937 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+15.8053 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+15.8169 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+15.8284 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+15.84 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+15.8515 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+15.8631 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+15.8747 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+15.8862 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+15.8978 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+15.9093 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+15.9209 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+15.9325 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+15.944 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+15.9556 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+15.9671 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+15.9787 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+15.9903 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+16.0018 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+16.0134 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+16.0249 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+16.0365 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+16.0481 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+16.0596 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+16.0712 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+16.0827 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+16.0943 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+16.1059 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+16.1232 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1459505
+16.129 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+16.1348 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+16.1405 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+16.1463 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+16.1521 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+16.1579 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+16.1579 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+16.1694 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+16.181 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+16.1964 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+16.208 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+16.2195 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+16.2311 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+16.2426 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+16.2542 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+16.2658 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+16.2773 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+16.2889 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+16.3004 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+16.312 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+16.3236 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+16.3351 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+16.3467 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+16.3582 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+16.3698 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+16.3814 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+16.3929 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+16.4045 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+16.416 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+16.4276 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+16.4392 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+16.4507 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+16.4623 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+16.4738 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+16.4854 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+16.497 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+16.5085 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+16.5201 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+16.5316 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+16.5432 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+16.5548 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+16.5721 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1500777
+16.5779 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+16.5837 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+16.5894 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+16.5952 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+16.601 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+16.6068 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+16.6068 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+16.6183 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+16.6299 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+16.6453 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+16.6569 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+16.6684 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+16.68 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+16.6916 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+16.7031 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+16.7147 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+16.7262 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+16.7378 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+16.7494 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+16.7609 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+16.7725 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+16.784 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+16.7956 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+16.8072 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+16.8187 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+16.8303 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+16.8418 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+16.8534 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+16.865 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+16.8765 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+16.8881 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+16.8996 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+16.9112 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+16.9228 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+16.9343 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+16.9459 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+16.9574 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+16.969 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+16.9806 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+16.9921 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+17.0037 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+17.021 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1542049
+17.0268 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+17.0326 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+17.0384 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+17.0441 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+17.0499 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+17.0557 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+17.0557 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+17.0673 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+17.0788 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+17.0942 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+17.1058 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+17.1174 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+17.1289 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+17.1405 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+17.152 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+17.1636 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+17.1752 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+17.1867 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+17.1983 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+17.2098 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+17.2214 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+17.233 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+17.2445 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+17.2561 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+17.2676 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+17.2792 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+17.2908 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+17.3023 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+17.3139 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+17.3254 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+17.337 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+17.3486 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+17.3601 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+17.3717 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+17.3832 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+17.3948 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+17.4064 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+17.4179 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+17.4295 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+17.441 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+17.4526 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+17.4699 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1583321
+17.4757 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+17.4815 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+17.4873 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+17.4931 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+17.4988 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+17.5046 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+17.5046 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+17.5162 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+17.5277 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+17.5431 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+17.5547 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+17.5663 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+17.5778 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+17.5894 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+17.6009 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+17.6125 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+17.6241 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+17.6356 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+17.6472 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+17.6587 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+17.6703 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+17.6819 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+17.6934 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+17.705 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+17.7165 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+17.7281 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+17.7397 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+17.7512 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+17.7628 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+17.7743 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+17.7859 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+17.7975 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+17.809 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+17.8206 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+17.8321 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+17.8437 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+17.8553 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+17.8668 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+17.8784 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+17.8899 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+17.9015 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+17.9188 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1624593
+17.9246 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+17.9304 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+17.9362 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+17.942 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+17.9477 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+17.9535 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+17.9535 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+17.9651 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+17.9766 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+17.9921 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+18.0036 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+18.0152 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+18.0267 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+18.0383 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+18.0499 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+18.0614 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+18.073 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+18.0845 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+18.0961 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+18.1077 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+18.1192 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+18.1308 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+18.1423 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+18.1539 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+18.1655 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+18.177 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+18.1886 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+18.2001 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+18.2117 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+18.2233 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+18.2348 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+18.2464 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+18.2579 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+18.2695 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+18.2811 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+18.2926 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+18.3042 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+18.3157 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+18.3273 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+18.3389 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+18.3504 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+18.3678 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1665865
+18.3735 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+18.3793 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+18.3851 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+18.3909 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+18.3967 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+18.4024 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+18.4024 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+18.414 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+18.4256 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+18.441 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+18.4525 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+18.4641 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+18.4756 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+18.4872 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+18.4988 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+18.5103 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+18.5219 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+18.5334 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+18.545 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+18.5566 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+18.5681 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+18.5797 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+18.5912 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+18.6028 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+18.6144 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+18.6259 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+18.6375 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+18.649 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+18.6606 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+18.6722 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+18.6837 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+18.6953 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+18.7068 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+18.7184 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+18.73 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+18.7415 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+18.7531 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+18.7646 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+18.7762 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+18.7878 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+18.7993 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+18.8167 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1707137
+18.8224 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+18.8282 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+18.834 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+18.8398 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+18.8456 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+18.8513 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+18.8513 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+18.8629 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+18.8745 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+18.8899 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+18.9014 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+18.913 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+18.9246 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+18.9361 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+18.9477 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+18.9592 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+18.9708 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+18.9824 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+18.9939 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+19.0055 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+19.017 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+19.0286 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+19.0402 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+19.0517 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+19.0633 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+19.0748 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+19.0864 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+19.098 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+19.1095 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+19.1211 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+19.1326 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+19.1442 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+19.1558 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+19.1673 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+19.1789 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+19.1904 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+19.202 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+19.2136 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+19.2251 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+19.2367 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+19.2482 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+19.2656 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1748409
+19.2714 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+19.2771 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+19.2829 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+19.2887 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+19.2945 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+19.3003 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+19.3003 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+19.3118 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+19.3234 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+19.3388 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+19.3504 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+19.3619 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+19.3735 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+19.385 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+19.3966 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+19.4082 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+19.4197 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+19.4313 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+19.4428 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+19.4544 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+19.466 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+19.4775 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+19.4891 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+19.5006 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+19.5122 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+19.5238 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+19.5353 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+19.5469 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+19.5584 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+19.57 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+19.5816 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+19.5931 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+19.6047 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+19.6162 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+19.6278 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+19.6394 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+19.6509 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
+19.6625 [node 0] In CongAvoid, updated to cwnd 4928 ssthresh 2412
+19.674 [node 0] In CongAvoid, updated to cwnd 4986 ssthresh 2412
+19.6856 [node 0] In CongAvoid, updated to cwnd 5043 ssthresh 2412
+19.6972 [node 0] In CongAvoid, updated to cwnd 5099 ssthresh 2412
+19.7145 [node 0] Triple dupack. Enter fast recovery mode. Reset cwnd to 4020, ssthresh to 2412 at fast recovery seqnum 1789681
+19.7203 [node 0] Dupack in fast recovery mode. Increase cwnd to 4556
+19.7261 [node 0] Dupack in fast recovery mode. Increase cwnd to 5092
+19.7318 [node 0] Dupack in fast recovery mode. Increase cwnd to 5628
+19.7376 [node 0] Dupack in fast recovery mode. Increase cwnd to 6164
+19.7434 [node 0] Dupack in fast recovery mode. Increase cwnd to 6700
+19.7492 [node 0] Received full ACK. Leaving fast recovery with cwnd set to 2412
+19.7492 [node 0] In CongAvoid, updated to cwnd 2531 ssthresh 2412
+19.7607 [node 0] In CongAvoid, updated to cwnd 2644 ssthresh 2412
+19.7723 [node 0] In CongAvoid, updated to cwnd 2752 ssthresh 2412
+19.7877 [node 0] In CongAvoid, updated to cwnd 2856 ssthresh 2412
+19.7993 [node 0] In CongAvoid, updated to cwnd 2956 ssthresh 2412
+19.8108 [node 0] In CongAvoid, updated to cwnd 3053 ssthresh 2412
+19.8224 [node 0] In CongAvoid, updated to cwnd 3147 ssthresh 2412
+19.8339 [node 0] In CongAvoid, updated to cwnd 3238 ssthresh 2412
+19.8455 [node 0] In CongAvoid, updated to cwnd 3326 ssthresh 2412
+19.8571 [node 0] In CongAvoid, updated to cwnd 3412 ssthresh 2412
+19.8686 [node 0] In CongAvoid, updated to cwnd 3496 ssthresh 2412
+19.8802 [node 0] In CongAvoid, updated to cwnd 3578 ssthresh 2412
+19.8917 [node 0] In CongAvoid, updated to cwnd 3658 ssthresh 2412
+19.9033 [node 0] In CongAvoid, updated to cwnd 3736 ssthresh 2412
+19.9149 [node 0] In CongAvoid, updated to cwnd 3812 ssthresh 2412
+19.9264 [node 0] In CongAvoid, updated to cwnd 3887 ssthresh 2412
+19.938 [node 0] In CongAvoid, updated to cwnd 3960 ssthresh 2412
+19.9495 [node 0] In CongAvoid, updated to cwnd 4032 ssthresh 2412
+19.9611 [node 0] In CongAvoid, updated to cwnd 4103 ssthresh 2412
+19.9727 [node 0] In CongAvoid, updated to cwnd 4173 ssthresh 2412
+19.9842 [node 0] In CongAvoid, updated to cwnd 4241 ssthresh 2412
+19.9958 [node 0] In CongAvoid, updated to cwnd 4308 ssthresh 2412
+20.0073 [node 0] In CongAvoid, updated to cwnd 4374 ssthresh 2412
+20.0189 [node 0] In CongAvoid, updated to cwnd 4439 ssthresh 2412
+20.0305 [node 0] In CongAvoid, updated to cwnd 4503 ssthresh 2412
+20.042 [node 0] In CongAvoid, updated to cwnd 4566 ssthresh 2412
+20.0519 [node 3] In SlowStart, updated to cwnd 1072 ssthresh 65535
+20.0536 [node 0] In CongAvoid, updated to cwnd 4628 ssthresh 2412
+20.0651 [node 0] In CongAvoid, updated to cwnd 4690 ssthresh 2412
+20.0767 [node 0] In CongAvoid, updated to cwnd 4751 ssthresh 2412
+20.0883 [node 0] In CongAvoid, updated to cwnd 4811 ssthresh 2412
+20.0998 [node 0] In CongAvoid, updated to cwnd 4870 ssthresh 2412
